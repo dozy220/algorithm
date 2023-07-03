@@ -1,10 +1,10 @@
 # [unrated] 문자 리스트를 문자열로 변환하기 - 181941 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181941?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181941?language=python3) 
 
 ### 성능 요약
 
-메모리: 74.3 MB, 시간: 1.87 ms
+메모리: 10.3 MB, 시간: 0.01 ms
 
 ### 구분
 
