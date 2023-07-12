@@ -1,10 +1,10 @@
 # [unrated] n 번째 원소까지 - 181889 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181889) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181889?language=python3) 
 
 ### 성능 요약
 
-메모리: 73.8 MB, 시간: 0.01 ms
+메모리: 9.9 MB, 시간: 0.00 ms
 
 ### 구분
 
