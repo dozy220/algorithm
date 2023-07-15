@@ -1,10 +1,10 @@
 # [unrated] 원하는 문자열 찾기 - 181878 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181878) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181878?language=python3) 
 
 ### 성능 요약
 
-메모리: 69.9 MB, 시간: 9.09 ms
+메모리: 10.1 MB, 시간: 0.07 ms
 
 ### 구분
 
