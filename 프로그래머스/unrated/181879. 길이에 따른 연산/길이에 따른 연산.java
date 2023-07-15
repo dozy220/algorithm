@@ -1,0 +1,18 @@
+class Solution {
+    public int solution(int[] num_list) {
+        int answer = 0;
+        
+        if (10 < num_list.length) {
+            for (int i=0; i<num_list.length; i++) {
+                answer += num_list[i];
+            }
+        } else {
+            answer++;
+            for (int i=0; i<num_list.length; i++) {
+                answer *= num_list[i];
+            }
+        }
+        
+        return answer;
+    }
+}
