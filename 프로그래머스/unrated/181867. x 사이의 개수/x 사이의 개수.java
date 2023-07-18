@@ -1,18 +1,7 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 class Solution {
     public int[] solution(String myString) {
-        List<Integer> answer = new ArrayList<>();
-        
-        String[] strArr = myString.split("x");
-        
-        for (int i=0; i<strArr.length; i++) {
-            answer.add(strArr[i].length());
-        }
-        
-        if (myString.charAt(myString.length()-1) == 'x') answer.add(0);
-        
-        return answer.stream().mapToInt(e -> e).toArray();
+        return Arrays.stream(myString.split("x", myString.length())).mapToInt(e -> e.length()).toArray();
     }
 }
