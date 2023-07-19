@@ -1,10 +1,10 @@
 # [unrated] 무작위로 K개의 수 뽑기 - 181858 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181858) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181858?language=python3) 
 
 ### 성능 요약
 
-메모리: 90.8 MB, 시간: 8.53 ms
+메모리: 10.9 MB, 시간: 6.96 ms
 
 ### 구분
 
