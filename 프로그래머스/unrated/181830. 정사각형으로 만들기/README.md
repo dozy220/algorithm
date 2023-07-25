@@ -1,10 +1,10 @@
 # [unrated] 정사각형으로 만들기 - 181830 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181830) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181830?language=python3) 
 
 ### 성능 요약
 
-메모리: 91.7 MB, 시간: 0.06 ms
+메모리: 11.2 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -74,7 +74,7 @@ Empty
 <p>입출력 예 #3</p>
 
 <ul>
-<li>예제 3번의 <code><l-core>arr</l-core></code><l-core>은 행의 수와 열의 수가 2로 같습니다</l-core>. 따라서 0을 추가하지 않고 [[1, 2], [3, 4]]을 return 합니다.</li>
+<li>예제 3번의 <code>arr</code>은 행의 수와 열의 수가 2로 같습니다. 따라서 0을 추가하지 않고 [[1, 2], [3, 4]]을 return 합니다.</li>
 </ul>
 
 
