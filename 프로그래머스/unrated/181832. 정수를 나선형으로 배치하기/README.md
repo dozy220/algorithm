@@ -1,10 +1,10 @@
 # [unrated] 정수를 나선형으로 배치하기 - 181832 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181832?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181832?language=python3) 
 
 ### 성능 요약
 
-메모리: 74 MB, 시간: 0.06 ms
+메모리: 10.3 MB, 시간: 0.41 ms
 
 ### 구분
 
@@ -55,31 +55,31 @@ Empty
 <li><p>예제 1번의 <code>n</code>의 값은 4로 4 × 4 배열에 다음과 같이 1부터 16까지 숫자를 채울 수 있습니다.</p>
 <table class="table">
         <thead><tr>
-<th>행 \ 열</th>
-<th>0</th>
-<th>1</th>
-<th>2</th>
-<th>3</th>
+<th><l-core class="">행 \ 열</l-core></th>
+<th><l-core class="">0</l-core></th>
+<th><l-core class="">1</l-core></th>
+<th><l-core class="">2</l-core></th>
+<th><l-core class="">3</l-core></th>
 </tr>
 </thead>
         <tbody><tr>
-<td>0</td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
+<td><l-core class="">0</l-core></td>
+<td><l-core class="">1</l-core></td>
+<td><l-core class="">2</l-core></td>
+<td><l-core class="">3</l-core></td>
+<td><l-core class="">4</l-core></td>
 </tr>
 <tr>
-<td>1</td>
-<td>12</td>
-<td>13</td>
-<td>14</td>
-<td>5</td>
+<td><l-core class="">1</l-core></td>
+<td><l-core class="">12</l-core></td>
+<td><l-core class="">13</l-core></td>
+<td><l-core class="">14</l-core></td>
+<td><l-core class="">5</l-core></td>
 </tr>
 <tr>
-<td>2</td>
-<td>11</td>
-<td>16</td>
+<td><l-core class="">2</l-core></td>
+<td><l-core class="">11</l-core></td>
+<td><l-core class="">16</l-core></td>
 <td>15</td>
 <td>6</td>
 </tr>
