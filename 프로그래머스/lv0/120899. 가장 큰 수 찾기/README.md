@@ -1,10 +1,10 @@
 # [level 0] 가장 큰 수 찾기 - 120899 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120899) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120899?language=python3) 
 
 ### 성능 요약
 
-메모리: 73.6 MB, 시간: 1.05 ms
+메모리: 9.98 MB, 시간: 0.01 ms
 
 ### 구분
 
