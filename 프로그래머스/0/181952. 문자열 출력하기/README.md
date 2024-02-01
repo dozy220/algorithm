@@ -1,10 +1,10 @@
 # [level 0] 문자열 출력하기 - 181952 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181952?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181952?language=java) 
 
 ### 성능 요약
 
-메모리: 32.3 MB, 시간: 66.75 ms
+메모리: 68.2 MB, 시간: 297.42 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 1월 2일 14:43:15
+2024년 2월 4일 14:58:45
 
 ### 문제 설명
 
