@@ -1,10 +1,10 @@
 # [level 2] 2 x n 타일링 - 12900 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12900) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12900?language=python3) 
 
 ### 성능 요약
 
-메모리: 51.8 MB, 시간: 3.18 ms
+메모리: 11.9 MB, 시간: 9.97 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 04월 01일 22:12:51
+2024년 04월 01일 22:36:28
 
 ### 문제 설명
 
