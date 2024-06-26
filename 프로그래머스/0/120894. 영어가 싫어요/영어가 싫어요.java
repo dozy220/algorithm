@@ -1,0 +1,13 @@
+class Solution {
+    public long solution(String numbers) {
+        long answer = 0;
+        
+        String[] num = new String[] {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+        
+        for (int i=0; i<num.length; i++) {
+            numbers = numbers.replaceAll(num[i], String.valueOf(i));
+        }
+        
+        return Long.parseLong(numbers);
+    }
+}
