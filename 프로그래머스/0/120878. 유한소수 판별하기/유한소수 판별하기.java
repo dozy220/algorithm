@@ -3,7 +3,7 @@ class Solution {
         int answer = 2;
         int n = Math.max(a, b);
         int i = 2;
-        
+         
         while (n > i) {
             if (a%i == 0 && b%i == 0) {
                 a /= i;
