@@ -1,11 +1,10 @@
 def solution(spell, dic):
     answer = 2
-    
-    s = ''.join(sorted(spell))
+    s = sorted(spell)
     
     for di in dic:
-        if s == ''.join(sorted(di)):
+        if s == sorted(di):
             answer = 1
-            break
+            break 
         
     return answer
