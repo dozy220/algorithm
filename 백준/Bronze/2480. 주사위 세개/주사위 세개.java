@@ -9,23 +9,12 @@ public class Main {
         int c = sc.nextInt();
         sc.close();
 
-        int max = 0;
-        if (a < b) {
-            if (b < c) max = c;
-            else max = b;
-        } else {
-            if (a < c) max = c;
-            else max = a;
-        }
-
-        if (a == b && b == c) {
-            System.out.println(10000+(a*1000));
-        } else if (a == b || b == c || a == c) {
-            if (a == b) System.out.println(1000+(a*100));
-            else if (b == c) System.out.println(1000+(b*100));
-            else System.out.println(1000+(c*100));
-        } else {
-            System.out.println((max*100));
-        }
+        if (a == b && b == c) 
+            System.out.println(10_000 + (a * 1000));
+        else
+            if (a == b || b == c || a == c)
+                System.out.println(1_000 + ((a == b ? a : c) * 100));
+            else
+                System.out.println((a > b ? Math.max(a, c) : Math.max(b, c)) * 100);
     }
 }
