@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)  {
         Scanner sc = new Scanner(System.in);
-
-        int hh = sc.nextInt();
-        int mm = sc.nextInt();
+        int h = sc.nextInt();
+        int m = sc.nextInt();
         sc.close();
 
-        if (mm >= 45) System.out.println(hh + " " + (mm-45));
-        else if (mm < 45 && hh >= 1) System.out.println((hh-1) + " " + (mm-45+60));
-        else if (mm < 45 && hh == 0) System.out.println(23 + " " + (mm-45+60));
+        if (m >= 45)
+            System.out.println(h + " " + (m-45));
+        else
+            System.out.println((h == 0 ? 23 : h-1) + " " + (m+15));
     }
 }
