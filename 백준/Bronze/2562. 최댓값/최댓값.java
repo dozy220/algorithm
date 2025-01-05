@@ -1,23 +1,16 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> list = new ArrayList<>();
 
-        int[] num = new int[9];
-        int max = 0;
-        int index = 0;
-
-        for (int i=0; i<num.length; i++) {
-            num[i] = sc.nextInt();
-            if (max < num[i]) {
-                max = num[i];
-                index = i+1;
-            }
+        for (int i=0; i<9; i++) {
+            list.add(sc.nextInt());
         }
-        sc.close();
 
+        int max = list.stream().max(Integer::compare).get();
         System.out.println(max);
-        System.out.println(index);
+        System.out.println(list.indexOf(max) + 1);
     }
 }
