@@ -6,19 +6,18 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         StringTokenizer st = new StringTokenizer(sc.nextLine());
-        StringTokenizer st1 = new StringTokenizer(sc.nextLine());
+        StringTokenizer nArrSt = new StringTokenizer(sc.nextLine());
+        StringBuilder sb = new StringBuilder();
 
-        int[] num = new int[Integer.parseInt(st.nextToken())];
+        st.nextToken();
         int x = Integer.parseInt(st.nextToken());
 
-        for (int i=0; i<num.length; i++) {
-            num[i] = Integer.parseInt(st1.nextToken());
+        while (nArrSt.hasMoreTokens()) {
+            int n = Integer.parseInt(nArrSt.nextToken());
+            if (n < x)
+                sb.append(n).append(" ");
         }
 
-        for (int i=0; i<num.length; i++) {
-            if ( x > num[i]) {
-                System.out.print(num[i]+" ");
-            }
-        }
+        System.out.println(sb.toString().strip());
     }
 }
