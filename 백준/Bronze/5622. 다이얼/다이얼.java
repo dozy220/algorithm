@@ -10,11 +10,9 @@ public class Main {
         int sec = 0;
 
         for (int i=0; i<str.length(); i++) {
-            for (char ch : exep) {
+            for (char ch : exep)
                 if (str.charAt(i) == ch) sec -= 1;
-            }
-
-            sec += (int) Math.ceil((str.charAt(i) - 62) / 3);
+            sec += (str.charAt(i) - 62) / 3;
         }
 
         sec += str.length()*2;
